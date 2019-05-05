@@ -1,0 +1,13 @@
+#modal {
+    position: absolute;
+    width: 80%;
+    margin: 5% 10%;
+    background-color: lightgray;
+    opacity: 0.8;
+}
+
+#modal > b {
+    position: relative;
+    float: right;
+    padding: 1%;
+}

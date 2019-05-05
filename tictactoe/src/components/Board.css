@@ -1,0 +1,12 @@
+#board {
+    background-color: blue;
+    width: 15%;
+    margin: 5% 20% 0% 43%;
+}
+
+.square {
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 5%;
+    height: 50px;
+}
