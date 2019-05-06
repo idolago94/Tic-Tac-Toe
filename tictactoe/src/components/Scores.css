@@ -1,0 +1,6 @@
+.turn {
+    box-sizing: border-box;
+    border: 2px solid red;
+    box-shadow: 3px 3px #ff00008f;
+    background-color: burlywood;
+}

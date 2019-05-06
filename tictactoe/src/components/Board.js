@@ -59,19 +59,19 @@ export class Board extends Component {
         <div>
             <div id="board">
                 <div class="row">
-                    <div onClick={this.playerClicked.bind(this, 0, 0)} class="square col-sm-4">{this.props.board[0][0]}</div>
-                    <div onClick={this.playerClicked.bind(this, 1, 0)} class="square col-sm-4">{this.props.board[1][0]}</div>
-                    <div onClick={this.playerClicked.bind(this, 2, 0)} class="square col-sm-4">{this.props.board[2][0]}</div>
+                    <div onClick={this.playerClicked.bind(this, 0, 0)} class="square col-sm-4"><b>{this.props.board[0][0]}</b></div>
+                    <div onClick={this.playerClicked.bind(this, 1, 0)} class="square col-sm-4"><b>{this.props.board[1][0]}</b></div>
+                    <div onClick={this.playerClicked.bind(this, 2, 0)} class="square col-sm-4"><b>{this.props.board[2][0]}</b></div>
                 </div>
                 <div class="row">
-                    <div onClick={this.playerClicked.bind(this, 0, 1)} class="square col-sm-4">{this.props.board[0][1]}</div>
-                    <div onClick={this.playerClicked.bind(this, 1, 1)} class="square col-sm-4">{this.props.board[1][1]}</div>
-                    <div onClick={this.playerClicked.bind(this, 2, 1)} class="square col-sm-4">{this.props.board[2][1]}</div>
+                    <div onClick={this.playerClicked.bind(this, 0, 1)} class="square col-sm-4"><b>{this.props.board[0][1]}</b></div>
+                    <div onClick={this.playerClicked.bind(this, 1, 1)} class="square col-sm-4"><b>{this.props.board[1][1]}</b></div>
+                    <div onClick={this.playerClicked.bind(this, 2, 1)} class="square col-sm-4"><b>{this.props.board[2][1]}</b></div>
                 </div>
                 <div class="row">
-                    <div onClick={this.playerClicked.bind(this, 0, 2)} class="square col-sm-4">{this.props.board[0][2]}</div>
-                    <div onClick={this.playerClicked.bind(this, 1, 2)} class="square col-sm-4">{this.props.board[1][2]}</div>
-                    <div onClick={this.playerClicked.bind(this, 2, 2)} class="square col-sm-4">{this.props.board[2][2]}</div>
+                    <div onClick={this.playerClicked.bind(this, 0, 2)} class="square col-sm-4"><b>{this.props.board[0][2]}</b></div>
+                    <div onClick={this.playerClicked.bind(this, 1, 2)} class="square col-sm-4"><b>{this.props.board[1][2]}</b></div>
+                    <div onClick={this.playerClicked.bind(this, 2, 2)} class="square col-sm-4"><b>{this.props.board[2][2]}</b></div>
                 </div>
             </div>
         </div>

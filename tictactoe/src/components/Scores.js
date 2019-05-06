@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import './Scores.css';
 
 function mapStateToProps(state) {
   return {
@@ -22,17 +23,22 @@ export class Scores extends Component {
 
   componentDidUpdate() {
     if(this.props.playerTurn) {
-      document.getElementById('x').style.border = '2px solid red';
-      document.getElementById('o').style.border = '';
+      // document.getElementById('x').style.border = '2px solid red';
+      // document.getElementById('o').style.border = '';
+      document.getElementById('x').classList.add('turn');
+      document.getElementById('o').classList.remove('turn');
     }
     else {
-      document.getElementById('o').style.border = '2px solid red';
-      document.getElementById('x').style.border = '';
+      // document.getElementById('o').style.border = '2px solid red';
+      // document.getElementById('x').style.border = '';
+      document.getElementById('o').classList.add('turn');
+      document.getElementById('x').classList.remove('turn');
     }
   }
 
   componentDidMount() {
-    document.getElementById('x').style.border = '2px solid red';
+    // document.getElementById('x').style.border = '2px solid red';
+    document.getElementById('x').classList.add('turn');
   }
 
   render() {

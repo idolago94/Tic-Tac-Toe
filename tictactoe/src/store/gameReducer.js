@@ -26,9 +26,9 @@ const gameReducer = ( state = initialState, action) => {
         case 'WIN' :
         return {
             board: new Array(
-                new Array('.','.','.'),
-                new Array('.','.','.'),
-                new Array('.','.','.')
+                new Array(3),
+                new Array(3),
+                new Array(3)
             ),
             playerTurn: action.win
         }
